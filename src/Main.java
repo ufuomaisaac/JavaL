@@ -10,7 +10,7 @@ public class Main {
 
         int num = 0;
 
-
+        //I instantiated bufferedReader in the try parenthesis to avoid closing it manually after getting user input
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
 
             num = Integer.parseInt(br.readLine());
