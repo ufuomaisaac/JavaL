@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 // using two thread simultaneously
-public class Demo {
+public class ThreadL {
     public static void main(String[] args) throws NumberFormatException, IOException {
 
         A obj1 = new A();
